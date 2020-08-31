@@ -1,0 +1,202 @@
+header{
+    background: white;
+}
+
+.header
+{
+    color: rgb(22, 21, 21);
+    background-color:rgb(225, 232, 238); 
+    font-size: 30px; 
+    text-decoration: none;
+    font-family: arial;
+    text-align: center;
+    Margin: 5px;
+    Padding: 5px;
+    position: fixed;
+    width: 100%;
+    }
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100,100,100);
+}
+
+
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80);
+    height: 700px;
+    margin-top: 50px;
+    position: relative; 
+}
+
+h2 {
+    color: white;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    color: white;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    width: 40%;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /*column-count: 2;
+    column-gap: 300px;*/    
+}
+
+.learn {
+    width: 40%;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.form {
+    margin-left: 10%;
+}
+
+
+.nyhet {
+    color: white;
+    width: 40%;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 400px;
+}
+
+.menybar a{
+    
+        text-decoration: none; 
+        color:#113102;
+
+}
+
+
+.menybar a:hover {
+  text-decoration: underline;
+  background-color:rgb(155, 155, 147);
+    padding: 0.5px;
+    color:rgb(10, 25, 110);
+    line-height: 40px;
+    font-size: inherit;
+    text-align: center;
+    font-family: arial;
+
+  }
+
+  .Hem 
+  {
+    background-color:rgb(225, 232, 238);
+      font-size: 15px;
+      border-width: 2px;
+      border-style: solid;
+      text-align: center;
+       Padding: 5px 10px;
+      display: inline-block;
+      border-radius: 36px;
+      width: 25%;
+      margin: 10px;
+  }
+
+.Anna 
+{
+    background-color:rgb(225, 232, 238);
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+     Padding: 5px 10px;
+    display: inline-block;
+    border-radius: 36px;
+    width: 25%;
+    text-decoration: none
+}
+
+.Vanessa 
+{
+    background-color:rgb(225, 232, 238);
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+     Padding: 5px 10px;
+    display: inline-block;
+    border-radius: 36px;
+    width: 25%;
+}
+
+.Raulf
+{
+    background-color:rgb(225, 232, 238);
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+     Padding: 5px 10px;
+    display: inline-block;
+    border-radius: 36px;
+    width: 25%; 
+
+    
+}
+
+.Emma 
+{
+    background-color:rgb(225, 232, 238);
+font-size: 15px;
+border-width: 2px;
+border-style: solid;
+text-align: center;
+ Padding: 5px 10px;
+display: inline-block;
+border-radius: 36px;
+width: 25%;
+}
+
+.Onur 
+{
+    background-color:rgb(225, 232, 238);
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+     Padding: 5px 10px;
+    display: inline-block;
+    border-radius: 36px;
+    width: 25%;
+}
+
+.menybar {
+list-style: none;
+text-align:center;
+position: sticky;
+top: 10px;
+      }
+
+footer
+      {
+    background-color:rgb(225, 232, 238);  
+    color:rgb(22, 21, 21);
+    padding: 6px; 
+    font-size: 10px; 
+   
+    letter-spacing: 2px; 
+    margin-top: 300px;
+      }
+
+      footerText  {
+      text-align: center;
+      }
+
+
+/*annas sida test menybar*/
+
+
+

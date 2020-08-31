@@ -1,0 +1,101 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    front-family: 'Open Sans', sans-serif;
+}
+section
+{
+    position: relative;
+    widows: 100%;
+    min-height: 100vh;
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .content
+{
+    position: relative;
+    padding: 100px 50px 100px 150px;
+    box-sizing: border-box;
+}
+section .content h2
+{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 800;
+}
+section .content p
+{
+    color: #fff;
+    font-size: 1.2em;
+}
+section .content a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30 px;
+    margin-top: 20px;
+    background: #ff2562;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+section .imgBx
+{
+    position: relative;
+    padding-right: 100px;
+}
+section .imgBx img
+{
+    max-width: 500px;
+}
+section .media
+{
+    position: absolute;
+    bottom: 75px;
+    left: 150;
+    display: flex;
+}
+section .media li
+{
+    list-style: none;
+}
+section .media li a
+{
+    text-decoration: none;
+    color: #999;
+    margin-right: 30px;
+    font-size: 0.9em;
+}
+section .media li a:hover
+{
+    color: #fff;
+}
+section .menybar
+{
+    position: absolute;
+    top: 75px;
+    left: 150;
+    display: flex;
+}
+}
+section .menybar li
+{
+    list-style: none;
+}
+section .menybar li a
+{
+    text-decoration: none;
+    color: #999;
+    margin-right: 30px;
+    font-size: 0.9em;
+}
+section .menybar li a:hover
+{
+    color: #fff;
+}
