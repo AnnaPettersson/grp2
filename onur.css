@@ -1,82 +1,154 @@
+html { 
+    background: linear-gradient(rgba(26, 26, 26, 0.9),rgba(26, 26, 26, 0.8)), url(img/laura-vinck-Hyu76loQLdk-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 body{
+    margin: 0;
     color: #fff;
-    background: #121212
+    font-family: 'titillium web';
 }
 header{
     text-align: center;
-    font-size: 2em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
+    font-size: 1.3em;
+    font-family:'pattaya';
+    font-weight: lighter;
+    border-radius: 100%;
+}
+h1{
+    background-color: #a03a4b;
+    display: inline-block;
+    padding: 20px 10px;
+    border-radius: 50%;
 }
 
-.container{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+h2{
+    font-family: pattaya;
+    font-weight: lighter;
+    background-color:#a03a4b ;
+    display: inline-block;
+    padding: 0 4px;
 }
 
-.hero{
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(rgba(26, 26, 26, 0.8),rgba(26, 26, 26, 0.7)), url(img/sjö.jpg);
-    background-size: cover;
-    position: fixed;
+nav{
+    background-color: #1b1b1b;
+    position: sticky;
+    top: 0px;
 }
 
-.zero{
-    
-    max-width: 1200;
-    text-align: left;
+nav ul{
+    white-space: nowrap;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
+ul.menybar {
+    font-family: 'titillium web';
+    text-align: center ;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    top: 0;
 }
   
-li {
-    float: left;
+.menybar li {
+    display: inline-block;
 }
   
-li a {
+.menybar li a {
+    font-size: 1.3em;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
 }
   
-li a:hover {
-    background-color: #111;
+.menybar li a:hover {
+    background-color: #a03a4b;
 }
   
-li a:active {
-    background-color: #4CAF50;
+.menybar li a:focus {
+    background-color: #a03a4b;
   }
+
+p{
+    display: block;
+}
+.bilder{
+    text-align: left;
+    margin: 40px auto;
+
+}
+.bilder img{
+    float: left;
+    width: 40%;
+    padding-right: 20px;
+    margin-left: 0px;
+}
+
+.bilder img:hover{
+    opacity: 70%;
+}
+
+div.bilder{
+    display: inline-block;
+
+}
+
+.bilder p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
 
 main{
     position: static;
-    width: 50%;
+    width: 70%;
     padding: 40px;
     margin: 50px auto;
 }
 
 footer{
-    position: f;
-    background-color: #333;
-    width: 100%;
-    padding: 30px 30px;
-    margin-bottom: 0;
+
+    background-color: #1b1b1b;
+    text-align: center;
 }
 
-form input:active{
-    border-color: rgb(122, 250, 122);
-    border-: 4px;
+
+.nyhet{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
 }
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    padding: 1em 0 .8em;
+    text-align: center;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 300;
+    color: inherit;
+    outline: none;
+
+}
+::placeholder{
+        color: #ffffff80;}
+        
+button {    
+    color: inherit;
+    font-family: inherit;
+    margin: 20px 0;
+    background: transparent;
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    font-size: 1.05em;
+}
+

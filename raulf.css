@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    front-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 section
 {
@@ -14,11 +14,28 @@ section
     justify-content: space-between;
     align-items: center;
 }
+section:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: darkgrey;
+    clip-path: polygon(54% 0, 100% 0, 100% 100%, 84% 100%);
+    animation: fade-in 0.5s ease-in forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
 section .content
 {
     position: relative;
     padding: 100px 50px 100px 150px;
     box-sizing: border-box;
+    animation: left-in 0.5s ease-in forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
 }
 section .content h2
 {
@@ -53,49 +70,86 @@ section .imgBx
 section .imgBx img
 {
     max-width: 500px;
+    animation: left-in 0.5s ease-in forwards;
+    animation-delay: 0.7s;
+    opacity: 0;
 }
-section .media
+.media
 {
     position: absolute;
     bottom: 75px;
     left: 150;
     display: flex;
+    animation: left-in 0.5s ease-in forwards;
+    animation-delay: 0s;
+    opacity: 1;
 }
-section .media li
+.media li
 {
     list-style: none;
 }
-section .media li a
+.media li a
 {
     text-decoration: none;
     color: #999;
     margin-right: 30px;
     font-size: 0.9em;
 }
-section .media li a:hover
+.media li a:hover
 {
     color: #fff;
 }
-section .menybar
+
+.menybar
 {
     position: absolute;
     top: 75px;
     left: 150;
     display: flex;
+    border-left: 5px solid #ff2562; 
+    padding-left: 20px;
+    animation: left-in 0.5s ease-in forwards;
+    animation-delay: 0s;
+    opacity: 0;
 }
-}
-section .menybar li
+.menybar li
 {
-    list-style: none;
+    list-style-type: none;
 }
-section .menybar li a
+.menybar li a
 {
     text-decoration: none;
-    color: #999;
+    color: #fff;
     margin-right: 30px;
     font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 700;
 }
-section .menybar li a:hover
+.menybar li a.active,
+.menybar li a:hover
 {
-    color: #fff;
+    color: #ff2562;
+}
+@keyframes fade-in
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+@keyframes left-in
+{
+    0%
+    {
+        transforn; translateX(-200px);
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
 }
