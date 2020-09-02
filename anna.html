@@ -3,91 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="anna.css">
     <title>Annas sida</title>
 </head>
+
 <body>
-    <section class="header">
-        <h1>Anna Pettersson</h1>
+
+    <header class="header">
+        <h1>Annas webb/shop</h1>
+    </header>
+
+ <main>  
+    <section class="topnav">
+        <a href="index.html">Hem</a>
+        <a class="active" href="anna.html">Anna</a>
+        <a href="vanessa.html">Vanessa</a>
+        <a href="raulf.html">Raulf</a>
+        <a href="emma.html">Emma</a>
+        <a href="onur.html">Onur</a>
     </section>
 
-    <br><br><br><br><br><br>
+    <section class="gallery">
+        <img src="img/girl.png" alt="Girl">
+        <img src="img/phones.png" alt="Phones">
+        <img src="img/clock.png" alt="Clock">
+    </section>
+
+    <form class="form">
+      <!-- Gender -->
+      <fieldset>
+        <legend><strong>Bli medlem här!</strong></legend>
+      <p>Jag är:</p>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Kvinna</label>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Man</label><br/>
+      
+
+      <!-- Interests -->
+      <section class="form2">
+      <p>Mina intressen:</p>
+      <input type="checkbox" id="web" />
+      <label for="web">Webbutveckling</label><br/>
+      <input type="checkbox" id="photoshop" />
+      <label for="photoshop">Teknikprylar</label><br/>
+      <input type="checkbox" id="madona" />
+      <label for="madona">Mode</label>
+      </section>
+      <br>
+
+      <!-- Contact details -->
    
-    <section class="meny">
-        <ul class="menybar">
-            <div class="Hem"><a href="index.html">Hem</a></div>
-            <div class="Anna"><a href="anna.html">Anna</a></div>
-            <div class="Vanessa"><a href="vanessa.html">Vanessa</a></div>
-            <div class="Raulf"><a href="raulf.html">Raulf</a></div>
-            <div class="Emma"><a href="emma.html">Emma</a></div>
-            <div class="Onur"><a href="onur.html">Onur</a></div>
-        </ul>
-    </section>
+    <section class="form3">
+    <p>Mina kontaktuppgifter:</p>
+    <input type="email" placeholder="Email" required />
+        <span class="tick"></span>
+        <input type="telephone" placeholder="Telefon" required />
+        <span class="tick"></span>
+    </section>  
+    <br>
+      <input type="submit" value="Submit"/>
 
-    <div class="gallery">
-        <img src="https://images.unsplash.com/photo-1581274915427-76bfa7451b07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
-            alt="Girl">
-        <img src="https://images.unsplash.com/photo-1548960254-456846b00986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80"
-            alt="Girl">
-    </div>
-        
-            <form>
-                <p>You are a...</p>
-                <label for="male">Male:</label>
-                <input type="radio" name="gender" id="male" value="male">
-                <label for="female">Female:</label>
-                <input type="radio" name="gender" id="female" value="female">
-                <label for="Other">Other:</label>
-                <input type="radio" name="gender" id="other" value="other">
-            
-                <p>Who are interested in...</p>
-                <input type="checkbox" id="web"/>
-                <label for="web">Webdevelopement</label>
-                <input type="checkbox" id="photoshop"/>
-                <label for="photoshop">Photoshop</label>
-                <input type="fashion" id="fashion"/>
-                <label for="fashion">Fashion</label>
+    </fieldset>
+    </form>
 
-                <fieldset>
-                    <legend>Contact info</legend>
-                    <input type="email" placeholder="Email" required>
-                    <span class="tick"></span>
-                    <input type="telephone" placeholder="Telephone" required>
-                    <span class="tick"></span>
-                </fieldset>
+<section class="gallery">
+        <img src="img/girl.png" alt="Girl">
+        <img src="img/phones.png" alt="Phones">
+</section>
 
-                <p>How would you like to be contacted?</p>
-                <select>
-                    <options>By email</options>
-                    <options>By telephone</options>
-                </select>
-               <input type="submit" value="Become a Ninja"/>
-            </form>
-       
-        
-    </div>
+</main> 
 
-
-
-    <!--gammalt
-
-
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="news.html">News</a>
-        <a href="products.html">Products</a>
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About us</a>
-    </div>
-
-    <div class="gallery">
-        <img src="https://images.unsplash.com/photo-1581274915427-76bfa7451b07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
-            alt="Girl">
-        <img src="https://images.unsplash.com/photo-1548960254-456846b00986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80"
-            alt="Girl">
-    </div>
-    -->
-    
+<br><br><br><br><br><br><br><br>
+    <footer>
+        <p id ="footerText">Copyright 2020</p>
+    </footer>
 </body>
 </html>
