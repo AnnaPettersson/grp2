@@ -3,23 +3,20 @@
 
 <head>
     <link rel="stylesheet" href="emma.css">
+    <script defer src="emma.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front End</title>
 </head>
 
 <body>
-
-
 <section class="header">
     <h1 class="titel">Front End's Klockor</h1>
 </section>
 <br>
 <div>
-    <div id="klocka" style="background-image: url('https://cdn.wallpapersafari.com/72/22/QSEJ8W.jpg'); position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; opacity: 0.5; z-index: -1"> </div>
-
-    
-    
+    <div id="klocka-bakgrund" style="background-image: url('https://cdn.wallpapersafari.com/72/22/QSEJ8W.jpg'); position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; opacity: 0.5; z-index: -1"> </div>
+   
     <section class="meny">
             <div class="Hem"><a href="index.html">Hem</a></div>
             <div class="Anna"><a href="anna.html">Anna</a></div>
@@ -29,26 +26,23 @@
             <div class="Onur"><a href="onur.html">Onur</a></div>
     </section>
     
-
     <div class="about">
-        
-
         <div class="row">
             <div class="column">
                 <h3 class="historia">Vår historia</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
+                <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
     
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
+                <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
                 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
+                <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
             </div>
 
 
             <div class="column">
                 <h3>Vår vision</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
+                <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
     
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
+                <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
             
             </div></div>
             
@@ -61,17 +55,17 @@
     <div class="rowTwo">
         <div class="columnTwo">
             <h4 class="historia">Unika klockor!</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
+            <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
         </div>
 
         <div class="columnTwo">
             <h4>4.9/5 i betyg!</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
+            <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias, architecto sint facilis facere minus? Doloribus, alias.</p>
         </div>
 
         <div class="columnTwo">
             <h4>Kontakta oss!</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit? Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias.</p>
+            <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit? Labore velit explicabo saepe, suscipit, impedit alias animi vero quidem quod consequatur voluptates enim molestias.</p>
        
             <a id="kontakt" href="emmatwo.html">Kontakta oss</a>
         </div>
@@ -79,12 +73,26 @@
     </div> 
 
         <footer>
-            <form class="nyhet">
-                <h2>Prenumerera på vårt nyhetsbrev!</h2>
-                <label for="email">E-postadress: </label><br>
-                <input type="email" id="email" placeholder="namn@epostadress.se" required><br>
-                <input id="skicka" name="skicka" type="submit" value="Prenumerera" placeholder="Prenumerera">
-            </form>
+            
+            <button class="button"><h2>Prenumerera på vårt nyhetsbrev!</h2></button>
+
+            <div class="button-bg">
+                <div class="popup">
+                    <h1 class="greeting"></h1>
+                    <h2>Prenumerera för att hänga med i svängarna!</h2>
+
+            <label for="namn" id="namn" value="namn">Namn:</label><br>
+            <input type="text" id="namn" placeholder="Ditt namn" required><br>
+
+            <label for="email">E-postadress: </label><br>
+            <input type="email" id="email" placeholder="namn@epostadress.se" required><br>
+
+            <button class="popUpButton">Prenumerera</button>
+            <span class="tack">Tack!</span>
+<span class="x-close">X</span>
+        </div>  </div>
+
+
             <p class ="footerText">Copyright 2020</p>
         </footer>
     
