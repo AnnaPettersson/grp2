@@ -298,7 +298,7 @@ form input#epost:valid:not(:placeholder-shown)
   font-size: 10px;
   }
 
-#bio 
+.bio 
 {
   opacity: 0.8;
   border-radius: 4px;
@@ -341,6 +341,7 @@ form input#epost:valid:not(:placeholder-shown)
       visibility: visible; 
       opacity: 1;
   }
+
 
   /* Här börjar CSS för javascriptet "prenumerera på vårt nyhetsbrev!" */ 
 
