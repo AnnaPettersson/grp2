@@ -9,74 +9,83 @@
 
 <body>
 
-    <header class="header">
-        <h1>Annas webb/shop</h1>
-    </header>
+  <header>
+    <h1>webb/shop.</h1>
+    
+      <section class="topnav">
+          <a href="index.html">Hem</a>
+          <a class="active" href="anna.html">Anna</a>
+          <a href="vanessa.html">Vanessa</a>
+          <a href="raulf.html">Raulf</a>
+          <a href="emma.html">Emma</a>
+          <a href="onur.html">Onur</a>
+        </section>
+  </header>
+    
+  <main>  
 
- <main>  
-    <section class="topnav">
-        <a href="index.html">Hem</a>
-        <a class="active" href="anna.html">Anna</a>
-        <a href="vanessa.html">Vanessa</a>
-        <a href="raulf.html">Raulf</a>
-        <a href="emma.html">Emma</a>
-        <a href="onur.html">Onur</a>
-    </section>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <p class="intro">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores, accusamus ratione sed iusto vero facilis? Voluptate magni tempore veniam ullam consectetur quisquam maxime necessitatibus, voluptatem, optio rerum quibusdam nostrum.”</p>
 
     <section class="gallery">
-        <img src="img/girl.png" alt="Girl">
-        <img src="img/phones.png" alt="Phones">
-        <img src="img/clock.png" alt="Clock">
+      <img src="img/girl.png" alt="Girl">
+      <img src="img/phones.png" alt="Phones">
+      <img src="img/clock.png" alt="Clock">
+      <img src="img/clock2.png" alt="Clock2">
+      <img src="img/man.png" alt="Man">
     </section>
 
-    <form class="form">
-      <!-- Gender -->
-      <fieldset>
-        <legend><strong>Bli medlem här!</strong></legend>
-      <p>Jag är:</p>
-      <input type="radio" id="female" name="gender" />
-      <label for="female">Kvinna</label>
-      <input type="radio" id="male" name="gender" />
-      <label for="male">Man</label><br/>
-      
-
-      <!-- Interests -->
-      <section class="form2">
-      <p>Mina intressen:</p>
-      <input type="checkbox" id="web" />
-      <label for="web">Webbutveckling</label><br/>
-      <input type="checkbox" id="photoshop" />
-      <label for="photoshop">Teknikprylar</label><br/>
-      <input type="checkbox" id="madona" />
-      <label for="madona">Mode</label>
-      </section>
-      <br>
-
-      <!-- Contact details -->
-   
-    <section class="form3">
-    <p>Mina kontaktuppgifter:</p>
-    <input type="email" placeholder="Email" required />
-        <span class="tick"></span>
-        <input type="telephone" placeholder="Telefon" required />
-        <span class="tick"></span>
-    </section>  
     <br>
-      <input type="submit" value="Submit"/>
 
-    </fieldset>
+    <form class="form">
+      <fieldset>
+        <legend><em>Sign up for latest news</em></legend>
+          <p><em>I am:</em></p>
+          <input type="radio" id="female" name="gender"/>
+          <label for="female">Female</label>
+          <input type="radio" id="male" name="gender"/>
+          <label for="male">Male</label>
+          <input type="radio" id="other" name="gender"/>
+          <label for="male">Other</label>
+          <br>
+          <p><em>I'm interested in:</em></p>
+          <input type="checkbox" id="fashion"/>
+          <label for="fashion">Fashion</label><br/>
+          <input type="checkbox" id="tech"/>
+          <label for="tech">Tech</label><br/>
+          <input type="checkbox" id="trends"/>
+          <label for="trends">Trends</label>
+          <br>
+          <p><em>My contacts:</em></p>
+          <input type="email" placeholder="email" required/>
+          <input type="text" placeholder="phone" required/> 
+          <br>
+          <input type="submit" value="Send"/>
+      </fieldset>
     </form>
 
-<section class="gallery">
-        <img src="img/girl.png" alt="Girl">
-        <img src="img/phones.png" alt="Phones">
-</section>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
 
-</main> 
+  </main> 
 
-<br><br><br><br><br><br><br><br>
-    <footer>
-        <p id ="footerText">Copyright 2020</p>
-    </footer>
+  <footer class="footer">
+    <div class="follow">
+      <br>
+      <p><strong>follow us.</strong></p>
+        <div class="follow2">
+          <p>blog</p>
+          <p>news</p>
+          <p>instagram</p>
+        </div>
+      <img src="img/symbols.png" alt="symbols">
+    </div>
+  </footer>
+
+
 </body>
+
 </html>
