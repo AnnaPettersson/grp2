@@ -28,7 +28,7 @@
   height: 100vh;
 }
 
-
+/*
 img 
 {
 
@@ -37,42 +37,34 @@ img
   right: 0;
   bottom: 0;
   min-width: 100%;
-  min-height: 100%; /* This bit centers the image. */
+  min-height: 100%; 
   left: 50%;
   transform: translateX(-50%);
   opacity: 0.5;
   
-  /* Here, we make sure that nothing sticks out on the side that shouldn't. */
   
   overflow-x: hidden;
-}
-
-.body {
-  font-family: Times New Roman, Helvetica, sans-serif;
-  color: rgb(100,100,100);
-}
+}*/
 
 body {
- background-image: url(https://cdn.wallpapersafari.com/72/22/QSEJ8W.jpg); 
-  
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
-  
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
+  font-family: Times New Roman, Helvetica, sans-serif;
 }
 
-body img 
-{
+
+.backgroundTest {
+  z-index: -1;
+  background-image: url(https://cdn.wallpapersafari.com/72/22/QSEJ8W.jpg);
   opacity: 0.5;
+  content: "";
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .meny a{
