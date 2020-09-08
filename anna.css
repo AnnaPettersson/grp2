@@ -1,24 +1,33 @@
 
+html{
+  position:relative; 
+  min-height: 100%;
+}
 
 /*Header*/
+header {
+  background:#f2f2f2;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
 
-.header {
+header h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(100,100,100);
-  background: white;
-  font-size: 28px;
+  font-size: 54px;
+  border: 0;
+  padding: 0;
+  margin-right: 7%;
   text-align: right;
-  margin-right: 5%;
 }
 
 /*Navigation-bar*/
-
 .topnav {
     background-color: rgb(230,230,230);
     overflow: hidden;
-    margin: 30px auto;
     width: 100%;
-    position: fixed;
 }
 
 .topnav a {
@@ -41,8 +50,18 @@
   color: white;
 }
 
-/*Gallery*/
+/*Welcome intro*/
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin-left: 20px;
+  width: 40%;
+  top:50%; 
+  color: rgb(100,100,100);
+}
 
+/*Image gallery*/
 .gallery img {
     width: 30%;
     float: left;
@@ -59,37 +78,89 @@
   float: left;
   margin: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  font-display: strong;
   color: rgb(100,100,100);
-  background:  #ddd;
 }
 
-.form:hover {
-  opacity: 50%;
+.form p {
+  font-size: 18px;
+  letter-spacing: 0.1mm;
 }
 
 fieldset {
-  border: dotted;
+  border: 1px solid grey;
 }
 
 legend {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
-  background:  #ddd;
+  font-size: 25px;
+  background: #f2f2f2;
+  padding: 10px;
 }
 
-label[for="male"], label[for="female"] {
+label[for="male"], label[for="female"], label[for="other"] {
   cursor: pointer;
-}
-label[for="male"], label[for="female"] {
-  cursor: pointer;
-}
-label[for="male"], label[for="female"] {
-  cursor: pointer;
+  letter-spacing: 0.1mm;
 }
 
-footer{
+input[type="text"], input[type="email"] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 3px;
+  height: 20px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #f2f2f2;
+  width: 220px;
+}
+
+input[type="submit"] {
+  padding: 3px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  border-radius:3px;
+  width: 120px;
+  border: 0;
+  height: 20px;
+}
+
+/*Clear float*/
+.clear::after {
+  content: "br";
+  clear: both;
+  display: table;
+}
+
+hr {
+  background: none;
+  border: 0;
+  clear: both;
+  display: block;
+  float: none;
+  font-size: 0;
+  padding: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/*Footer*/
+.footer {
+  clear: both;
+  background: #f2f2f2;
   font-family: Arial, Helvetica, sans-serif;
-  font-display: strong;
   color: rgb(100,100,100);
+}
+
+.follow {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.follow2 {
+  font-size: 14px;
+}
+
+.follow img {
+  max-width: 100px;
+  opacity: 70;
 }
