@@ -24,10 +24,11 @@
     
   <main>  
 
-    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
     <p class="intro">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores, accusamus ratione sed iusto vero facilis? Voluptate magni tempore veniam ullam consectetur quisquam maxime necessitatibus, voluptatem, optio rerum quibusdam nostrum.”</p>
 
-    <section class="gallery">
+   
+    <section class="gallery">  
       <img src="img/girl.png" alt="Girl">
       <img src="img/phones.png" alt="Phones">
       <img src="img/clock.png" alt="Clock">
@@ -41,24 +42,24 @@
       <fieldset>
         <legend><em>Sign up for latest news</em></legend>
           <p><em>I am:</em></p>
-          <input type="radio" id="female" name="gender"/>
+          <input type="radio" name="female"/>
           <label for="female">Female</label>
-          <input type="radio" id="male" name="gender"/>
+          <input type="radio" name="male"/>
           <label for="male">Male</label>
-          <input type="radio" id="other" name="gender"/>
-          <label for="male">Other</label>
+          <input type="radio" name="other"/>
+          <label for="other">Other</label>
           <br>
           <p><em>I'm interested in:</em></p>
-          <input type="checkbox" id="fashion"/>
-          <label for="fashion">Fashion</label><br/>
-          <input type="checkbox" id="tech"/>
+          <input type="checkbox" name="watches"/>
+          <label for="fashion">Watches</label><br/>
+          <input type="checkbox" name="tech"/>
           <label for="tech">Tech</label><br/>
-          <input type="checkbox" id="trends"/>
-          <label for="trends">Trends</label>
+          <input type="checkbox" name="fashion"/>
+          <label for="fashion">Fashion</label>
           <br>
           <p><em>My contacts:</em></p>
-          <input type="email" placeholder="email" required/>
-          <input type="text" placeholder="phone" required/> 
+          <input type="email" name="email" placeholder="email" required/>
+          <input type="text" name="phonenumber" placeholder="phone"/> 
           <br>
           <input type="submit" value="Send"/>
       </fieldset>
