@@ -36,10 +36,11 @@ nav{
     background-color: #1b1b1b;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 nav ul{
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 ul.menybar {
